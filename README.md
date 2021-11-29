@@ -126,7 +126,7 @@ The API will return two error types when requests fail:
  - General
    - creates a new user
  
- - Request Body (at least one of the following fields required)
+ - Request Body 
    - email
    - password
    - role
@@ -161,7 +161,7 @@ The API will return two error types when requests fail:
  - General
    - login a user
  
- - Request Body (at least one of the following fields required)
+ - Request Body 
    - email
    - password
  
