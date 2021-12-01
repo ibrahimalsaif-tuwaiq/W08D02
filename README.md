@@ -40,7 +40,7 @@ You have to set up some variables in the `.env` file, for the app to run properl
 PORT=5000
 DB_URL=`Your MongoDB DB URL`
 SALT=`Your SALT here`
-SECRET_KEY=`Your SALT here`
+SECRET_KEY=`Your SECRET KEY here`
 ```
 
 ## Running the server
