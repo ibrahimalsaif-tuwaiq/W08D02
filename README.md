@@ -20,6 +20,29 @@ npm install
 
 This will install all of the required packages.
 
+##### Key Dependencies
+
+- [Express](https://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+- [mongoose](https://mongoosejs.com/) is an elegant mongodb object modeling for node.js.
+
+- [morgan](https://www.npmjs.com/package/morgan) is a HTTP request logger middleware for node.js.
+
+- [bcrypt](https://www.npmjs.com/package/bcrypt) is a A library to help you hash passwords.
+
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) is a JSON Web Token implementation (symmetric and asymmetric).
+
+#### Setting up the variables
+
+You have to set up some variables in the `.env` file, for the app to run properly.
+
+```
+PORT=5000
+DB_URL=`Your MongoDB DB URL`
+SALT=`Your SALT here`
+SECRET_KEY=`Your SALT here`
+```
+
 ## Running the server
 
 To run the server, execute:
